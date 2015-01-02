@@ -20,7 +20,6 @@ class Post extends BumbleModel
         public $rules = [
             'title' => 'required',
             'content' => 'required',
-            'active' =>  'required',
         ];
 
         public function setFields()
