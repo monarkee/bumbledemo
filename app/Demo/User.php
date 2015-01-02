@@ -1,4 +1,4 @@
-<?php
+<?php namespace Demo;
 
 use Illuminate\Auth\UserTrait;
 use Illuminate\Auth\UserInterface;
