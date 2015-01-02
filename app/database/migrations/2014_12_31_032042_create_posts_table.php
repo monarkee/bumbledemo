@@ -21,7 +21,7 @@ class CreatePostsTable extends Migration {
 			$table->text('content');
 			$table->tinyInteger('active')->nullable()->default(0);
 			$table->integer('sort')->nullable();
-			$table->datetime('published_at');
+			$table->datetime('published_at')->nullable();
 			$table->timestamps();
 			$table->softDeletes();
 		});
