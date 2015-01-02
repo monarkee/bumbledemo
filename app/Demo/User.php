@@ -14,6 +14,12 @@ class User extends BumbleModel implements UserInterface, RemindableInterface {
 	use UserTrait, RemindableTrait, BumbleUserTrait;
 
 	/**
+	 * Hide this model from the admin
+	 * @var boolean
+	 */
+	public $invisible = true;
+
+	/**
 	 * The database table used by the model.
 	 *
 	 * @var string
